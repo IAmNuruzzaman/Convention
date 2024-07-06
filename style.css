@@ -1,0 +1,25 @@
+.carousel-one {
+    background-image: url(images/banner.png);
+    height: 30vw;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+
+
+.carousel-one h1,
+p {
+    color: white;
+}
+
+
+.carousel-one img {
+    height: 100%;
+
+}
