@@ -1,11 +1,13 @@
 .carousel-one {
     background-image: url(images/banner.png);
-    height: 30vw;
+    height: 600px;
+    width: 100%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
 
 
@@ -13,13 +15,52 @@
 
 
 
-.carousel-one h1,
-p {
+.carousel-one h1, p {
     color: white;
+    
 }
 
 
 .carousel-one img {
-    height: 100%;
+    
+    width: 100%;
+    
+    padding: 0 400px;
+}
 
+
+
+
+.nav-top-p{
+    width: 100%;
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.nav-top-two{
+    text-align: center;
+    
+}
+
+
+.every-moment-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.every-moment{
+    /* width: 100%; */
+    color: black;
+    display: flex;
+}
+
+
+
+.btn .btn-primary .btn-sm{
+    padding: 0px;
+    
 }
